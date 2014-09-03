@@ -1,0 +1,90 @@
+.login {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -150px;
+	margin-left: -200px;
+
+	width: 420px;
+	height: 190px;
+
+	font-size: .8em;
+	color: #888;
+
+	background: rgb(230, 230, 230);
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px #000;
+
+
+	z-index: 100;
+}
+
+.login fieldset {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.login .main {
+	padding-left: 5px;
+	width: 100%;
+	height: 150px;
+}
+
+.login .main .title {
+	font-size: 2em;
+	line-height: 2em;
+	text-shadow: 0px 1px 1px #ffffff;
+	text-align: center;
+}
+
+.login .main .col {
+	float: left;
+	padding-top: 20px;
+	font-size: 1em;
+	color: #888888;
+	text-shadow: 0px 1px 1px #ffffff;
+	margin: 5px;
+	width: 185px;
+}
+
+.login .main .col input {
+	width: 185px;
+	height: 2em;
+}
+
+.login .footer {
+	overflow: auto;
+	box-shadow: 0px -1px 2px rgba(100, 100, 100, .2);
+	width: 100%;
+
+	background: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dedfe0));
+	background: -moz-linear-gradient(top, #ffffff, #dedfe0);
+	background: linear-gradient(top, #ffffff, #dedfe0);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.login .footer .message {
+	float: left;
+	width: 250px;
+	line-height: 40px;
+	padding: 5px;
+	color: #999;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+.login .footer .message.alert {
+	color: #f00;
+}
+
+.login .footer fieldset {
+	padding-top: 3px;
+	width: 150px;
+}
+
+.login .footer button {
+	width: 70px;
+	height: 35px;
+}

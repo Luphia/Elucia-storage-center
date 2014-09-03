@@ -1,0 +1,19 @@
+div.browser > div.operate > div.back {
+    margin-left: 10px;
+}
+
+div.browser > div.operate > div.back > div#icon {
+  	background: url(./images/back.png) no-repeat;
+  	background-position: center;
+  	background-size: 15px;
+  	-webkit-background-size: 15px;
+  	cursor: pointer; 
+  	display: block;
+    height: 30px;
+  	width: 30px;  	
+}
+
+div.browser > div.operate > div.back > .hover {
+    border: 1px solid #666;
+    box-shadow: 1px 1px 5px #888888;
+} 

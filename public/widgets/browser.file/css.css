@@ -1,0 +1,141 @@
+div.browser > div.content > div#file .fileIcon {
+    background: url(./images/file.png);
+    background-size: 68px 72px;
+    -webkit-background-size: 68px 72px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 68px;
+}
+
+div.browser > div.content > div#file .folderIcon {
+    background: url(./images/folder.png);
+    background-size: 80px 72px;
+    -webkit-background-size: 80px 72px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+div.browser > div.content .hover {
+    background-color: rgba(160, 176, 192, 0.5);
+}
+
+div.browser > div.content .selected { 
+    background: #a0b0c0;
+    color: #fff;
+}
+
+div.browser > div.content > div#file .small {
+    background-size: 40px;
+    -webkit-background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 0;
+    width: 40px;
+}
+
+div.browser > div.content > div#file .standard {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 72px;
+}
+
+div.browser > div.content .grid {
+    float: left;
+    margin: 2px;
+    width: 100px;
+}
+
+div.browser > div.content .list {
+    clear: left;
+    height: 40px;
+    margin: 0px;
+    width: 640px;
+}
+
+div.browser > div.content > div#file .underline {
+    text-decoration: underline;
+}
+
+div.browser > div.content > .text {
+    color: #887766;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+div.browser > div.content > div#file {
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    display: block;
+    float: left;
+    font-size: .8em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.browser > div.content > div#file canvas#myCanvas {
+    width: inherit;
+    height: inherit;
+}
+
+div.browser > div.content > div#file > div#icon {
+    cursor: pointer;
+    display: block;
+}
+
+div.browser > div.content > div#file > div.name {
+    display: none;
+}
+
+div.browser > div.content > div#file > div.visible_name {
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;  
+    width: 100px;
+}
+
+div.browser > div.content > div#file > div.date {
+    display: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 116px;
+}
+
+div.browser > div.content > div#file > div.msecond {
+    display: none;  
+}
+
+div.browser > div.content > div#file > div.type {
+    display: none;
+}
+
+div.browser > div.content > div#file > div.size {
+    display: none;
+    width: 80px;
+}
+
+div.browser > div.content > div#file > div.path {
+    display: none;
+}
+
+div.browser > div.content > div#file > div.visible_path {
+    display: none;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    width: 300px;
+}
+
+div.browser > div.content > div#file > div.physical {
+    display: none;
+}
+
+div.browser > div.content > div#file > div.encrypt {
+    display: none;
+}
+
+div.browser > div.content > div#file > div.ready {
+    display: none;
+}

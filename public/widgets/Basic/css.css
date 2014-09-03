@@ -1,0 +1,57 @@
+div.applicationDashboard {
+
+}
+
+div.applicationDashboard > div.block {
+	display: block;
+	float: left;
+	width: 200px;
+	border: solid 1px #aaa;
+	border-radius: 5px;
+	background: #fff;
+	margin: 5px;
+}
+
+div.applicationDashboard > div.block > div.title {
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #fed;
+	line-height: 2em;
+	color: #777;
+	text-shadow: 0px 1px 1px #fff;
+}
+
+div.applicationDashboard > div.block > div.content {
+	background: #fff;
+	height: 95px;
+	padding-top: 5px;
+}
+
+div.applicationDashboard > div.block > div.footer {
+	background: #eee;
+	font-size: .8em;
+	height: 35px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: right;
+	line-height: 35px;
+	color: #666;
+	padding-right: 10px;
+}
+
+div.applicationDashboard > div.block:nth-child(5) > div.footer {
+	padding-right: 40px;
+	background: #eee url(images/connections.png) right no-repeat;
+}
+
+div.applicationDashboard > div > div.footer a.download {
+	padding-left: 20px;
+	background: #eee url(images/download.png) no-repeat;
+}
+
+div.applicationDashboard > div > div.footer a.upload {
+	margin-right: 10px;
+	padding-left: 20px;
+	background: #eee url(images/upload.png) no-repeat;
+}

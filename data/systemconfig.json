@@ -1,0 +1,12 @@
+{
+	"fee": {
+		"diskGBH": {
+			"value": 0.001,
+			"unit": "NTD"
+		},
+		"networkGB": {
+			"value": 0.0035,
+			"unit": "NTD"
+		}
+	}
+}

@@ -1,0 +1,71 @@
+div.sysConfig > div
+{
+	min-width: 300px;
+	margin-bottom: 15px;
+	font-size: 0.9em;
+}
+
+div.sysConfig > div.submit
+{
+	text-align: right;
+}
+
+div.sysConfig  div.title
+{
+	font-size: 1.3em;
+	color: #fff;
+	text-align: center;
+	background: rgb(200,180,160);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px;
+
+	display: none;
+}
+
+div.sysConfig div.content
+{
+	background-color: #dcb;
+	min-height: 80px;
+	border-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+div.sysConfig  div.subTitle
+{
+	background-color: #BE9E4B;
+	text-align: center;
+	border-radius: 5px;
+	font-size:1.1em;
+	margin-bottom: 8px;
+	color:#fff;
+	min-width: 180px;
+}
+
+div.sysConfig div.picArea
+{
+	width: 110px;
+	opacity: .5;
+}
+
+div.sysConfig input[type=text]
+{
+	margin-right: 5px;
+	margin-bottom:10px;
+	width: 120px;
+	background: transparent;
+	border: solid 0px #cba;
+	border-bottom: solid 1px #864;
+	text-align: right;
+}
+
+div.sysConfig input[type=text].date
+{
+	width: 30px;
+}
+
+div.sysConfig input[type=text]:hover
+{
+	/* box-shadow:0 0 2px 3px rgb(224, 81, 213); */
+}

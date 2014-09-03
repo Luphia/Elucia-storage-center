@@ -1,0 +1,40 @@
+.confirmBox {
+	font-family: Calibri;
+	text-align: center;
+
+	width: 500px;
+	position: fixed;
+	left: 50%;
+	top: 30%;
+	margin-left: -250px;
+	padding: 20px;
+
+	border: 1px solid rgba(255, 255, 255);
+	border-radius: 5px;
+	background: rgb(245, 255, 245);
+	background: rgba(245, 255, 245, 0.8);
+
+	-moz-box-shadow: 0 0 6px rgba(30, 30, 30, 0.8);
+    -webkit-box-shadow: 0 0 6px rgba(30, 30, 30, 0.8);
+	box-shadow: 0 0 6px rgba(30, 30, 30, 0.8);
+
+	z-index: 99999;
+}
+
+.confirmBox  .confirmMsg {
+	display: block;
+	padding: 10px;
+	background: rgb(230, 250, 230);
+	border: 1px solid rgb(200, 230, 200);
+	border-radius: 5px;
+	color: rgb(100, 100, 100);
+	
+	margin-bottom: 10px;
+}
+
+.confirmBox button {
+	line-height: 2em;
+	width: 10em;
+	margin-left: 10px;
+	margin-right: 10px;
+}

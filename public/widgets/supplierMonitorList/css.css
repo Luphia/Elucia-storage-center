@@ -1,0 +1,88 @@
+div.supplierList
+{
+	width: 250px;
+	border: 2px solid rgb(221,204,187);
+	margin: 10px 18px 10px 18px;	
+	background-color: #FFFFFF;	
+	border-radius: 10px;
+	position: relative;
+	float: left;
+}
+
+div.supplierInfo > div:nth-child(1)
+{
+	text-align: center;
+	line-height:30px;
+	height:30px;
+	background-color: rgb(221,204,187);
+}
+
+div.supplierInfo > div:nth-child(2)
+{
+	text-align: center;
+	padding: 8px;
+	height: 40px;
+	line-height: 40px;
+}
+
+div.supplierInfo 
+{
+	width: 100%;
+}
+
+div.supplierstatus
+{
+	display: block;
+	width: 30px;
+	height:30px;
+	position: absolute;
+	top:-12px;
+	right: -14px;
+}
+
+
+div.good,div.bad
+{
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 45px;
+}
+
+div.good
+{
+	background-image: url("./images/good.png");	
+}
+
+div.bad
+{
+	background-image: url("./images/bad.png");
+}
+
+div.supplierDetail
+{
+	border-top: 1px dashed #aaa;
+	clear: both;
+	width: 100%;
+	display: none;
+}
+
+div.supplierList > div.detail
+{
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	width: 45px;
+	height: 45px;
+	left: -15px;
+	top: -12px;
+}
+
+div.supplierList > div.detail.show
+{
+	background-image: url(./images/add.png);
+}
+
+div.supplierList > div.detail.hide
+{
+	background-image: url(./images/minus.png);
+}

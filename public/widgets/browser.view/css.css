@@ -1,0 +1,33 @@
+div.browser > div.operate > div.view {
+    margin-left: 10px;
+}
+
+div.browser > div.operate > div.view div#icon {
+    cursor: pointer;
+    display: block;
+	height: 30px;  
+    width: 30px;
+}
+
+div.browser > div.operate > div.view div.model {
+    display: none;
+}
+
+div.browser > div.operate > div.view > .hover {
+    border: 1px solid #666;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+div.browser > div.operate > div.view .viewIcon {
+    background: url(./images/grid.png) no-repeat;
+    background-position: center;
+    background-size: 25px;
+    -webkit-background-size: 25px;
+}
+
+div.browser > div.operate > div.view .viewDetail {
+    background: url(./images/detail.png) no-repeat;
+    background-position: center;
+    background-size: 25px;
+    -webkit-background-size: 25px;
+}

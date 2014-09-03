@@ -1,0 +1,102 @@
+div.fileHealthy > div.cloud > div.node {
+	position: relative;
+	margin-left: random(600) + px;
+	float: left;
+	width: 280px;
+	height: 100px;
+	background: #aaa;
+	border-radius: 5px;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #888;
+	margin: 30px;
+
+	filter: brightness(1);
+	-webkit-filter: brightness(1);
+	-moz-filter: brightness(1);
+	-o-filter: brightness(1);
+	-ms-filter: brightness(1);
+}
+div.fileHealthy > div.cloud > div.node:hover {
+	filter: brightness(1.2);
+	-webkit-filter: brightness(1.2);
+	-moz-filter: brightness(1.2);
+	-o-filter: brightness(1.2);
+	-ms-filter: brightness(1.2);	
+}
+div.fileHealthy > div.cloud > div.node.offline {
+	opacity: .8;
+	filter: brightness(0.5);
+	-webkit-filter: brightness(0.5);
+	-moz-filter: brightness(0.5);
+	-o-filter: brightness(0.5);
+	-ms-filter: brightness(0.5);
+
+	filter: grayscale(80%);
+	-webkit-filter: grayscale(80%);
+	-moz-filter: grayscale(80%);
+	-o-filter: grayscale(80%);
+	-ms-filter: grayscale(80%);
+	background: red;
+}
+div.fileHealthy > div.cloud > div.node.offline::before {
+	content: 'offline';
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	font-size: .5em;
+	color: #fff;
+	background: #f00;
+	padding: 5px;
+}
+
+div.fileHealthy > div.cloud > div.node > div.icon {
+	text-align: center;
+	color: #fff;
+	font-size: .8em;
+	font-weight: bold;
+
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: url(./images/nas.png);
+}
+div.fileHealthy > div.cloud > div.node > div.datas {
+	padding: 3px;
+	height: 90px;
+	overflow-y: auto;
+}
+div.fileHealthy > div.cloud > div.node > div.datas > div.data {
+	display: block;
+	background: rgb(180, 255, 180);
+	width: 3px;
+	height: 3px;
+	margin-left: 1px;
+	margin-top: 1px;
+	float: left;
+}
+div.fileHealthy > div.cloud > div.node > div.datas > div.data.alert {
+	background: rgb(255, 100, 100);
+}
+div.fileHealthy > div.cloud > div.node > div.datas > div.data.repair {
+	background: rgb(255, 255, 100);
+}
+div.fileHealthy > div.cloud > div.node > div.datas > div.data.transfer {
+	background: rgba(200, 225, 200, .7);
+}
+
+
+
+
+div.data.animate {
+	display: block;
+	border: solid 1px #fff;
+	background: rgb(100, 155, 100);
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}

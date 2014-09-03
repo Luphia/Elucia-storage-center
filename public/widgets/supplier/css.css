@@ -1,0 +1,173 @@
+div.supplierWidget { 
+	width: 800px;
+	height: 450px;
+}
+
+div.supplierWidget > div {
+	background-color: #ffffff;
+	float: left;
+}
+
+div.supplierWidget div.title
+{	
+	background-color: #ddccbb;
+	color: #666;
+	font-family: 'Time New Roman', '微軟正黑體';
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+div.supplierWidget div.supplierInfo {
+	border: 2px solid #ddccbb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: 'Time New Roman', '微軟正黑體';
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 20px;
+	text-align: center;
+	width: 216px;
+	// border-left: 2px dashed #aaa;
+	// border-right: 2px dashed #aaa;
+	// border-bottom: 2px dashed #aaa;
+}
+
+div.supplierWidget div.supplierInfo div.name {
+	background-color: rgb(221,204,187);
+	height: 30px;
+	line-height: 30px;
+}
+
+div.supplierWidget div.supplierInfo > div:nth-child(2) {	
+	height: 90px;
+	padding-top: 60px;
+	text-align: center;	
+}
+
+div.supplierWidget div.cpu {
+	border: 2px solid #ddccbb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px; 
+	display: block;
+	clear: left;
+	margin-left: 60px;
+	margin-right: 40px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	width: 260px;	
+}
+
+div.supplierWidget div.cpu div.graph {
+	border: solid 2px #666;
+	margin-left: 30px;
+	margin-right: 30px;	
+	margin-top: 60px;	
+}
+
+div.supplierWidget div.cpu div.graph div.utility {
+	max-width: 200px;
+	height: 29px;
+	background: #d2ff52; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2ff52), color-stop(100%,#91e842)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+}
+
+div.supplierWidget div.cpu div.text {
+	font-size: 24px;
+	font-weight: bolder;
+	padding-top: 30px;
+	padding-bottom: 6px; 
+	text-align: center;
+}
+
+div.supplierWidget div.disk {	
+	/* (含內建title) width:height = 11:9 */
+	border: 2px solid #ddccbb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	height: 180px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	width: 242px;
+}
+
+div.supplierWidget div.memory {	
+	/* (含內建title) width:height = 11:9 */
+	border: 2px solid #ddccbb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	height: 180px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	width: 242px;	
+}
+
+div.supplierWidget div.network {	
+	border: 2px solid #ddccbb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+div.supplierWidget div.network div.msg {
+	font-size: 16px;
+	font-weight: bolder;
+	margin-left: 30px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+div.supplierWidget div.network div.msg > div
+{
+	display: inline-block;
+}
+
+div.supplierWidget div.network div.msg div.text
+{
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 30px;
+}
+
+div.supplierWidget div.network div.io {
+	height: 10px;
+	margin-left: 30px;
+	width: 10px;  
+}
+
+div.supplierWidget div.network div.out
+{
+    background-color: #45A8FF;	
+}
+
+div.supplierWidget div.network div.in
+{
+    background-color: #64D173;	
+}
+
+div.supplierWidget div.network div.line-chart {
+	margin-left: 30px;
+	margin-right: 30px;
+}

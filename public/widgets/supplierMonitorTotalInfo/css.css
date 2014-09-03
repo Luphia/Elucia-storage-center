@@ -1,0 +1,85 @@
+@import "./busket.css";
+
+
+div.subTotalInfo
+{
+	margin: 10px 5px 5px 15px;
+	background-color: #FFFFFF;
+	width: 180px;
+
+	border: 2px solid rgb(221,204,187);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+
+	min-height: 190px;
+
+	background-color: rgb(223,223,223);
+}
+
+
+div.subTotalInfo > div:first-child
+{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(221,204,187);
+
+	border-top-right-radius: 7px; 
+	border-top-left-radius: 7px; 
+}
+
+div.subTotalInfo > div.busketContent
+{
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	left: 40px;
+	top: 20px;
+}
+
+div.subTotalInfo > div.busketContent > div.type
+{
+	position: relative;
+	left: 25px;
+	top: 5px;
+}
+
+div.subTotalInfo > div.avalibilityContent
+{
+	vertical-align: bottom;
+	text-align: center;
+	margin: 0 auto;
+}
+
+div.subTotalInfo > div.avalibilityContent div.main
+{
+	padding: 2px;
+	position: relative;
+	width: 105px;
+	height: 30px;
+	margin: 50px 0 10px 31px;
+	border: 2px solid rgba(255,255,255,0.5) ;
+	-webkit-transform:rotate(-90deg);
+}
+
+div.subTotalInfo > div.avalibilityContent div.graph
+{
+	background: #d2ff52; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d2ff52 0%, #91e842 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top,  #d2ff52 0%,#91e842 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
+
+	height: 30px;
+	width: 0px;
+}
+
+div.subTotalInfo > div.avalibilityContent div.avalibility 
+{
+	margin-top: 46px;
+	text-align: center;
+}
+

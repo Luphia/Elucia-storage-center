@@ -1,0 +1,26 @@
+div.sysConfigSys > div
+{
+	min-width: 255px;
+	min-height: 100px;
+}
+
+div.sysConfigSys > div:not(:first-child)
+{
+	border-top:1px solid #fff;
+}
+
+div.sysConfigSys > div > div
+{
+	float: left;
+	min-width: 75px;
+	margin-top: 10px;
+}
+
+div.sysConfigSys div.supplierMonitorPeriod
+{
+	margin:-20px 0 0 5px;
+	width: 100px;
+	height: 100px;
+	background: url("./images/supplierMonitor.png") no-repeat;
+}
+

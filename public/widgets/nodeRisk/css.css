@@ -1,0 +1,68 @@
+div.nodeRisk
+{
+	min-width: 1070px;
+	font-size: 0.9em;
+}
+
+div.nodeRisk > div.info > div
+{
+	float: left;
+}
+
+div.nodeRisk > div.info > div.totalInfo
+{
+	margin-right: 15px;
+}
+
+div.nodeRisk > div.info > div.nodeInfo
+{
+	width: 80%;
+}
+
+div.nodeRisk div.title
+{
+	text-align: center;	
+	background-image: -moz-radial-gradient(center top,ellipse farthest-side ,  rgba(195,195,195,0.9) , transparent);
+    background-image: -webkit-radial-gradient(center top,ellipse farthest-side , rgba(195,195,195,0.9) , transparent);
+    background-image: -ms-radial-gradient(center top,ellipse farthest-side ,  rgba(195,195,195,0.9) , transparent);
+    background-image: radial-gradient(center top,ellipse farthest-side ,  rgba(195,195,195,0.9) , transparent);
+	margin-bottom: 10px;
+}
+
+div.nodeRisk div.title > div
+{
+	display: inline-block;	
+	height: 50px;
+	line-height: 50px;
+}
+
+div.nodeRisk div.title > div:nth-child(1)
+{
+	background-color: #f85032;
+	width: 10px;
+	height: 10px;
+}
+
+div.nodeRisk div.title > div:nth-child(3)
+{
+	background-color: #299a0b;
+	width: 10px;
+	height: 10px;
+}
+
+div.nodeRisk div.title > div:nth-child(5)
+{
+	background-color: #A9A9A9;
+	width: 10px;
+	height: 10px;
+}
+
+div.nodeRisk div.title > div:nth-child(even)
+{
+	margin-right: 20px;
+}
+
+div.nodeRisk div.nodeInfo > div
+{
+	float: left;
+}

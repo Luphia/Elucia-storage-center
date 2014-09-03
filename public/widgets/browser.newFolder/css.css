@@ -1,0 +1,72 @@
+div.browser > div.content > div#newfolder .folderIcon {
+    background: url(./images/folder.png);
+}
+
+div.browser > div.content > div#newfolder .small {
+    background-size: 40px;
+    -webkit-background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+}
+
+div.browser > div.content > div#newfolder .standard {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80px 72px;
+    -webkit-background-size: 80px 72px;
+    height: 72px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+div.browser > div.content > div#newfolder {
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    display: block;
+    font-size: .8em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.browser > div.content > div#newfolder > div#icon {
+    cursor: pointer;
+    display: block;
+}
+
+div.browser > div.content > div#newfolder > div.name {
+    cursor: text;
+    overflow: hidden;
+    text-align: center;
+    text-overflow:ellipsis;  
+    width: 100px;
+}
+
+div.browser > div.content > div#newfolder > div.date {
+    display: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 116px;
+}
+
+div.browser > div.content > div#newfolder > div.type {
+    display: none;
+}
+
+div.browser > div.content > div#newfolder > div.size {
+    display: none;
+    width: 80px;
+}
+
+div.browser > div.content > div#newfolder > div.path {
+    display: none;
+}
+
+div.browser > div.content > div#newfolder > div.visible_path {
+    display: none;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    width: 300px;
+}

@@ -1,0 +1,44 @@
+div.switch {
+	border-radius: 10px/10px;
+	display: block;
+	width: 50px;
+	height: 20px;
+	background: #9df;
+	border-top: 1px solid #8ce;
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid #8ce;
+	border-right: 1px solid transparent;
+
+	margin: auto;
+}
+div.button {
+	cursor: pointer;
+	border-radius: 10px/10px;
+	display: block;
+	width: 20px;
+	height: 20px;
+
+	background: #fff;
+}
+
+div.switch.on {
+	background: #9df;
+	border-top: 1px solid #8ce;
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid #8ce;
+	border-right: 1px solid transparent;
+}
+div.switch.on div.button {
+	float: right;
+}
+
+div.switch.off {
+	background: #eee;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid transparent;
+}
+div.switch.off div.button {
+	float: left;
+}

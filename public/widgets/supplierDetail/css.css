@@ -1,0 +1,91 @@
+div.subWigdet div.cpu
+{
+	border-top: 1px dashed #aaa;
+	font-size: 28px;
+	min-height: 100px;
+}
+
+div.subWigdet div.cpu > div.title
+{	
+	padding:20px 0px 10px 0;
+	width: 100%;
+	text-align: center;
+}
+
+div.subWigdet div.cpu > div:nth-child(2)
+{
+	font-size: 28px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+div.subWigdet div.network
+{	
+	border-top: 1px dashed #aaa;
+	min-height: 170px;
+	padding: 20px 0px 0px 35px;
+}
+
+div.subWigdet div.disk
+{	
+	border-top: 1px dashed #aaa;
+	height: 180px;
+}
+
+
+div.subWigdet div.title
+{	
+	padding:0px 0px 10px 55px;
+	color: #999999;
+	font-weight: bolder;
+
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+	text-anchor: middle; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: bold; 
+	font-size: 19px; 
+	line-height: normal; 
+	font-family: Arial;
+	fill-opacity: 1;
+}
+
+div.subWigdet div.msg
+{
+	padding-left: 30px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+div.subWigdet div.msg > div
+{
+	display: inline-block;
+}
+
+div.subWigdet div.msg div.text
+{
+	display: inline-block;
+}
+
+div.subWigdet div.io
+{
+	width: 10px; 
+    height: 10px; 
+}
+
+div.subWigdet div.out
+{
+    background-color: #45A8FF;	
+}
+
+div.subWigdet div.in
+{
+    background-color: #64D173;	
+}
+
+div.subWigdet div.text
+{
+    margin-right: 40px;
+}
+

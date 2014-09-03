@@ -1,0 +1,11 @@
+{
+	"result": 1,
+	"message": "",
+	"data": [
+		{"name": "dir1", "type": "folder"},
+		{"name" : "dir2", "type": "folder"},
+		{"name" : "dir3", "type": "folder"},
+		{"name" : "file001", "type": "image/jpeg"},
+		{"name" : "file002", "type": "application/pdf"}
+	]
+}

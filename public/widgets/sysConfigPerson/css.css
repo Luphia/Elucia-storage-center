@@ -1,0 +1,27 @@
+div.sysConfigPerson > div
+{
+	min-width: 255px;
+	min-height: 100px;
+}
+
+div.sysConfigPerson > div:not(:first-child)
+{
+	border-top:1px solid #fff;
+}
+
+div.sysConfigPerson > div > div
+{
+	float: left;
+	min-width: 75px;
+	margin-top: 10px;
+}
+
+div.sysConfigPerson div.token
+{
+	margin: 10px 0 0 30px;
+	width: 75px;
+	height: 80px;
+	background: url("./images/expireTime.png") no-repeat;
+}
+
+

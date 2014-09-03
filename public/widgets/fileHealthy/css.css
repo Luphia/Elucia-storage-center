@@ -1,0 +1,161 @@
+div.fileHealthy {
+	font-family: 微軟正黑體;
+	background: rgb(220, 220, 220);
+}
+
+div.fileHealthy > div.summary {
+	width: 220px;
+	height: 100%;
+	float: left;
+}
+div.fileHealthy > div.summary div.block {
+	margin: 5px;
+	border-radius: 5px;
+	background: rgb(230, 220, 210);
+	text-align: center;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+div.fileHealthy > div.summary div.block div.data {
+	position: relative;
+}
+div.fileHealthy > div.summary div.block div.title {
+	font-size: 1.2em;
+	line-height: 2em;
+	font-weight: 300;
+	color: rgb(100, 100, 100);
+	background: rgb(220,210,200);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid #eee;
+}
+div.fileHealthy > div.summary div.block div.data div.value {
+	color: #444;
+	font-size: 2em;
+	line-height: 2em;
+}
+div.fileHealthy > div.summary div.block div.data div.unit {
+	font-size: .8em;
+	line-height: 2em;
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: -10px;
+	width: 100%;
+}
+
+div.fileHealthy > div.cloud {
+	min-height: 500px;
+	min-width: 600px;
+	overflow: auto;
+
+	background: rgba(200, 220, 255, .3) url(./images/CloudStorage.png);
+	border-radius: 100px/50px;
+}
+
+
+div.fileHealthy > div.users {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 220px;
+	/* margin-right: auto; */
+	overflow: auto;
+	padding: 10px;
+	border-radius: 5px;
+	background: rgba(200, 190, 180, .8);
+	min-width: 600px;
+}
+div.fileHealthy > div.users::before {
+	/* background: rgba(60, 60, 60, .1); */
+	color: #fff;
+	font-weight: bold;
+	font-size: 2em;
+	display: block;
+	text-align: center;
+	margin-bottom: 2px;
+}
+div.fileHealthy > div.users::before {
+	content: 'USER LIST';
+}
+
+div.fileHealthy > div.users > div.user {
+	cursor: pointer;
+	display: block;
+	position: relative;
+	background: url(./images/user.png);
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-right: 0px;
+}
+div.fileHealthy > div.users > div.user.select {
+	background: url(./images/user.png) rgba(155, 145, 135, .5);
+}
+div.fileHealthy > div.users > div.user.select > div.name {
+	display: block;
+	color: #fff;
+	background: rgba(95, 85, 75, .5);
+}
+
+div.fileHealthy > div.users > div.user.online {
+	opacity: .8;
+}
+div.fileHealthy > div.users > div.user.online::before {
+	content: 'online';
+	color: #8f8;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: .5em;
+}
+div.fileHealthy > div.users > div.user.offline {
+	opacity: .3;
+}
+
+div.fileHealthy > div.users > div.user > div.name {
+	display: none;
+	text-align: center;
+	margin-top: 45px;
+	color: #666;
+	background: rgba(255, 255, 255, .8);
+	padding: 2px;
+	border-radius: 2px;
+}
+div.fileHealthy > div.users > div.user:hover {
+	opacity: 1;
+}
+div.fileHealthy > div.users > div.user:hover > div.name {
+	display: block;
+}
+
+
+div.fileHealthy div.config {
+	background: rgb(255, 255, 255);
+	overflow: auto;
+	margin: 5px;
+	border-radius: 5px;
+}
+div.fileHealthy div.config > div {
+	overflow: auto;
+	background: rgb(150, 130, 110);
+	margin: 1px;
+}
+div.fileHealthy div.config > div > div.description {
+	float: left;
+	padding: 5px;
+	display: block;
+	margin-right: 10px;
+	color: rgb(255, 255, 255);
+
+	line-height: 2em;
+}
+div.fileHealthy div.config > div > div.controll {
+	float: right;
+	margin-top: auto;
+	margin-bottom: auto;
+
+	height: 2em;
+	padding-top: .5em;
+	padding-right: .5em;
+}

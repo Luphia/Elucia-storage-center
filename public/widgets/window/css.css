@@ -1,0 +1,133 @@
+.elucia.window {
+	position: absolute;
+	background: #ffdd88;
+	background: rgba(255, 255, 255, .5);
+	border-top: solid 1px #ffffff;
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #888888;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #333333;
+	display: block;
+	z-index: 5;
+	margin: 1%;
+}
+
+.elucia.window.max {
+	width: 97%;
+	height: 97%;
+}
+
+.elucia.window.min div.content {
+	display: none;
+}
+
+.elucia.window.top {
+	z-index: 10;
+}
+
+.elucia.window.bottom {
+	z-index: 3;
+	opacity: 0.9;
+	/*
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+	*/
+}
+
+.elucia.window.bottom::after {
+	content: "";
+	display: block;
+	position: absolute;
+	background: #ccc;
+	opacity: .6;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.elucia.window.loading div.content::before {
+	background: #333 url(images/loading.gif) center center no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	content: "";
+	opacity: .5;
+}
+
+.elucia.window div.loading::after {
+	background: #333 url(images/loading.gif) center center no-repeat;
+	display: block;
+	width: 532px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	content: "";
+	opacity: .5;
+}
+
+/*
+.elucia.window:hover {
+	z-index: 999;
+}
+*/
+
+.elucia.window > .header {
+	overflow: auto;
+	min-width: 200px;
+	color: #666666;
+}
+
+.elucia.window > .header > .title {
+	float: left;
+	padding: 5px;
+}
+
+.elucia.window > .header > .operate {
+	width: 90px;
+	overflow: auto;
+	float: right;
+}
+
+.elucia.window > .header > .operate > a {
+	width: 30px;
+	height: 20px;
+	display: block;
+	cursor: pointer;
+	float: left;
+}
+
+.elucia.window > .header > .operate .min {
+	background: url(images/operate.png);
+}
+
+.elucia.window > .header > .operate .max {
+	background: url(images/operate.png) 85px 0px;
+}
+
+.elucia.window > .header > .operate .close {
+	background: url(images/operate.png) 40px 0px;
+}
+
+.elucia.window > .content {
+	background: #dddddd;
+	background: rgba(255, 255, 255, .8);
+	padding: 10px;
+	position: relative;
+	overflow: auto;
+}
+
+.elucia.window > .resize {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	border-top: 10px solid transparent;
+	border-right: 10px solid #987;
+	border-bottom: 0px solid transparent;
+
+	cursor: se-resize;
+}

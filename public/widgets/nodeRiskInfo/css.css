@@ -1,0 +1,86 @@
+div.nodeRiskInfo > div
+{
+	font-size: 0.9em;
+	margin: 0 0 6px 5px;
+	background-color: #FFFFFF;
+	width: 185px;
+	border: 2px solid rgb(221,204,187);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	min-height: 210px;
+}
+
+div.nodeRiskInfo div.totalInfoTitle
+{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(221,204,187);
+	border-top-right-radius: 7px; 
+	border-top-left-radius: 7px; 
+}
+
+div.nodeRiskInfo div.content
+{
+	text-align: center;
+	height: 180px;
+	position: relative;
+}
+
+div.nodeRiskInfo div.content > div
+{
+	position: absolute;
+}
+
+div.nodeRiskInfo div.content > div.fileImg 
+{
+	background: url('images/file.png') no-repeat center;	
+	left: 15%;
+	top:-7%;
+	width: 125px;
+	height: 138px;
+}
+
+div.nodeRiskInfo div.content > div.cloudImg 
+{
+	background: url('images/nodeCloud.png') no-repeat center;
+	left: 10%;
+	width: 146px;
+	height: 119px;
+}
+
+div.nodeRiskInfo div.content > div.liveImg 
+{
+	background: url('images/live.png') no-repeat center;	
+	left: 15%;
+	width: 45px;
+	top:45%;
+	height: 44px;
+}
+
+div.nodeRiskInfo div.content > div.dangerImg
+{
+	background: url('images/danger.png') no-repeat center;
+	left: 15%;
+	top: 40%;
+	width: 66px;
+	height: 58px;
+}
+
+div.nodeRiskInfo div.content > div.riskImg 
+{
+	background: url('images/risk.png') no-repeat center;
+	left: 15%;
+	top: 40%;
+	width: 66px;
+	height: 58px;
+}
+
+div.nodeRiskInfo div.content > div.show
+{
+	width: 100%;
+	top: 75%;
+}
+

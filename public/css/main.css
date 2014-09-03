@@ -1,0 +1,168 @@
+@import "./common.css";
+
+body {
+	margin: 0px;
+	font-family: 微軟正黑體;
+	height: 100%;
+	width: 100%;
+	background: url(../images/pattern.png) #666;
+}
+
+body::before {
+	content: ' ';
+	position: absolute;
+	display: block;
+	height: 500px;
+	width: 500px;
+	background: url(../images/logo.png) no-repeat center center;
+
+	right: 0px;
+	bottom: 0px;
+}
+
+.hide {
+	display: none;
+}
+
+.vbody {
+	display: block;
+	position: relative;
+	overflow: auto;
+}
+
+table {
+	width: 90%;
+	font-size: 10pt;
+}
+
+table > thead {
+	padding: 5px;
+}
+
+table th {
+	padding: 3px;
+	color: #5A5A5A;
+	background: rgb(200, 200, 200);
+	/*
+	background-image:-webkit-linear-gradient(top , #eeeeee 0%, #9dc1c0 100%);
+	background-image: -moz-linear-gradient(center top , #eeeeee 0%, #9dc1c0 100%);
+	background-image: -o-linear-gradient(top , #eeeeee 0%, #9dc1c0 100%);
+	background-image: linear-gradient(top , #eeeeee 0%, #9dc1c0 100%);
+	*/
+	/*background-image: -ms-linear-gradient(top, rgb(240, 240, 240) 0%, rgb(150, 150, 150) 150%);
+	background-image: -moz-linear-gradient(top, rgb(240, 240, 240) 0%, rgb(150, 150, 150) 150%);
+	background-image: -o-linear-gradient(top, rgb(240, 240, 240) 0%, rgb(150, 150, 150) 150%);
+	background-image: -webkit-linear-gradient(top, rgb(240, 240, 240) 0%, rgb(150, 150, 150) 150%);
+	background-image: linear-gradient(top, rgb(240, 240, 240) 0%, rgb(150, 150, 150) 150%);*/
+}
+
+table > tbody td {
+	padding-left: 10px;
+}
+
+#read-more {
+	font-size: .8em;
+	color: #666;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: #ccc;
+	text-decoration: none;
+	border-radius: 3px;
+	border: solid 1px #aaa;
+}
+
+#read-less {
+	font-size: .8em;
+	color: #999;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: #ccc;
+	text-decoration: none;
+	border-radius: 3px;
+	border: solid 1px #aaa;
+}
+
+/*
+
+[Carbon]
+	background: -webkit-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+	            -webkit-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+	            -webkit-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+	            -webkit-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+	            -webkit-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+	            -webkit-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background: -moz-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+	            -moz-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+	            -moz-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+	            -moz-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+	            -moz-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+	            -moz-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	            linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	            linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	            linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	            linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	            linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-size: 20px 20px;
+	background-color: #131313;
+	-pie-background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px / 20px,
+	                 linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px / 20px,
+	                 linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px / 20px,
+	                 linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px / 20px,
+	                 linear-gradient(90deg, #1b1b1b 10px, transparent 10px) 0 0 / 20px,
+	                 linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424)
+	                 0 0 / 20px #131313;
+	behavior: url(/css/PIE.htc);
+
+
+[Horizontal]
+	background-size: 50px 50px;
+	background-color: #0ae;
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+	background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+	background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+	-pie-background: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px #0ae;
+	behavior: url(/css/PIE.htc);
+
+
+[Vertical]
+	background-size: 50px 50px;
+	background-color: #f90;
+	background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+	background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+	background-image: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+	-pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
+	behavior: url(/css/PIE.htc);
+
+
+[Picnic]
+	background-size: 50px 50px;
+	background-color: white;
+	background-image: -webkit-linear-gradient(transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)),
+	                  -webkit-linear-gradient(0deg, transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5));
+	background-image: -moz-linear-gradient(transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)),
+	                  -moz-linear-gradient(0deg, transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5));
+	background-image: linear-gradient(transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)),
+	                  linear-gradient(90deg, transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5));
+	-pie-background: linear-gradient(transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)) 0 0 / 50px 50px,
+	                 linear-gradient(90deg, transparent 50%, rgba(200, 0, 0, .5) 50%, rgba(200, 0, 0, .5)) 0 0 / 50px 50px white;
+	behavior: url(/css/PIE.htc);
+
+
+[Angled]
+	background-size: 50px 50px;
+	background-color: #ac0;
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+	                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+	                  transparent 75%, transparent);
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+	                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+	                  transparent 75%, transparent);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+	                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+	                  transparent 75%, transparent);
+	-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+	                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+	                 transparent 75%, transparent) 0 0 / 50px 50px #ac0;
+	behavior: url(/css/PIE.htc);
+*/

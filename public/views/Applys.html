@@ -1,0 +1,43 @@
+﻿<table>
+	<tr>
+		<td><label class="label1">${display.xxx}申請計畫名稱</label><input type="text" name="usProjName" class="ltext input1" value="${usProjName}"/></td>
+		<td><label class="label2">申請者</label><input type="text" name="usApplyName" class="stext input2" value="${usApplyName}"/></td>
+	</tr>
+	 {{each usPlanGroup}}
+	  <tr>
+		<td><label class="label3">計畫聯絡人</label><input type="text" name="usPlanUserName" class="stext input3" value="${usPlanUserName}"/></td>
+		<td><label class="label4">電話(公)</label><input type="text" name="usPlanCompanyPhone" class="phone input4" value="${usPlanCompanyPhone}"/></td>
+	  </tr>
+	  <tr>
+		<td><label class="label5">電話(宅)</label><input type="text" name="usPlanHomePhone" class="phone input5" value="${usPlanHomePhone}"/></td>
+		<td><label class="label6">行動電話</label><input type="text" name="usPlanCellphone" class="phone input6" value="${usPlanCellphone}"/></td>
+	  </tr>
+	  <tr>
+		<td><label class="label7">傳真</label><input type="text" name="usPlanFax" class="stext input7" value="${usPlanFax}"/></td>
+		<td><label class="label8">e-mail</label><input type="text" name="usPlanEmail" class="stext input8" value="${usPlanEmail}"/></td>
+	  </tr>
+    {{/each}}
+	<tr>
+		<td><label class="label9">計畫總預算</label><input type="text" name="usPlanBudget" class="money input9" value="${usPlanBudget}"/></td>
+	</tr>
+   {{each usSubsidyGroup}}
+	<tr>
+		<td><label class="label10">單位名稱</label><input type="text" name="usUnitName" class="ltext input10" value="${usUnitName}"/></td>
+	</tr>
+	<tr>
+		<td><label class="label11">申請金額</label><input type="text" name="usApplyMoney" class="money input11" value="${usApplyMoney}"/></td>
+		<td><label class="label12">申請日期</label><input type="text" name="usApplyDate" class="date input12" value="${usApplyDate}"/></td>
+	</tr>
+	<tr>
+		<td><label class="label13">申請結果</label><input type="text" name="usApplyResult" class="stext input13" value="${usApplyResult}"/></td>
+	</tr>
+	{{/each}}
+	<tr>
+		<td><label class="label14">申請本基金會補助金額</label><input type="text" name="usSubsidyAmount" class="money input14" value="${usSubsidyAmount}"/></td>
+		<td><label class="label15">申請日期</label><input type="text" name="usCreateDate" class="date input15" value="${usCreateDate}"/></td>
+	</tr>
+</table>
+
+
+
+

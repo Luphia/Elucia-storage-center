@@ -1,0 +1,38 @@
+div.sysConfigFile > div
+{
+	min-width: 255px;
+	min-height: 110px;
+}
+
+div.sysConfigFile > div:not(:first-child)
+{
+	border-top:1px solid #fff;
+}
+
+div.sysConfigFile div.fileStrageArea
+{
+	height: 150px;
+}
+
+div.sysConfigFile > div > div
+{
+	float: left;
+	min-width: 75px;
+	margin-top: 10px;
+}
+
+div.sysConfigFile div.repair
+{
+	margin: -10px 0 0 -4px;
+	width: 105px;
+	height: 100px;
+	background: url("./images/repair.png") no-repeat;
+}
+
+div.sysConfigFile div.fileStrage
+{
+	margin: 5px 0 0 -6px;
+	width: 120px;
+	height: 120px;
+	background: url("./images/fileStrategy.png") no-repeat;
+}

@@ -1,0 +1,95 @@
+div.browser {
+  background-color: #cccccc;
+  border: 5px solid #eeeeee;
+  display: block;
+  height: 495px;
+  width: 880px;
+}
+
+div.browser > div.operate {
+	/* background: #def; */
+  background-color: #8ac;
+  border-top: 2px solid #79b;
+  border-bottom: 2px solid #79b;
+  display: block;
+	height: 33px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  text-align: center;
+  width: 880px;	
+}
+
+div.browser > div.list {
+  /* background: #7777ff; */
+  float: left;
+  height: 435px;
+  overflow: auto;
+  padding-left: 10px;
+  padding-top: 15px;
+  width: 180px;
+}
+
+div.browser > div.table {
+    background-color: #ace;
+    border-bottom: 2px solid #79b;
+    color: #68a;
+    display: none;
+    font-family: "Time New Roman";
+    font-size: 18px;
+    font-weight: bold;
+    height: 24px;
+    margin-left: 190px;
+    padding-left: 10px;
+    padding-top: 2px;
+    width: 680px;
+}
+
+div.browser > div.content {
+	/* background: #bcd; */
+  height: 410px;
+  padding-top: 10px;
+  overflow-x: auto;
+  overflow-y: auto;
+	width: 690px; 
+}
+
+div.browser > div.operate > div {
+    float: left;
+}
+
+div.browser > div.table > div {
+    float: left;
+}
+
+div.browser > div.table > div:nth-child(1) {
+    width: 140px;
+}
+
+div.browser > div.table > div > div {
+    float: left;
+}
+
+div.browser > div.table > div > div.table_td {
+    cursor: pointer;
+}
+
+div.browser > div.table > div:nth-child(2) {
+    width: 120px;
+}
+
+div.browser > div.table > div:nth-child(3) {
+    width: 80px;
+}
+
+div.browser > div.table > div:nth-child(4) {
+    width: 160px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666666;
+}

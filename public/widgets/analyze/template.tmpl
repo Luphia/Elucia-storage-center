@@ -1,0 +1,45 @@
+<div class="analyze">	
+	<div class="tags">
+		<div class="tag month"><div>%{analyze.month}</div></div>
+		<div class="tag season"><div>%{analyze.season}</div></div>
+		<div class="tag year"><div>%{analyze.year}</div></div>
+	</div>
+	<div class="content">	
+		<div class="income">
+			<div class="incomeImg"></div>
+			<fieldset class="field">				
+				<legend>%{analyze.income}</legend> 
+				<div class="range">
+					%{analyze.range}&nbsp;&nbsp;
+					<input type="range" name="contantRangeIncome" min="0.5" step="0.5" max="2" value="1">
+					<output for="contantRangeIncome" onforminput="value = contantRangeIncome.valueAsNumber;"></output>
+				</div>
+				<div class="indicate">
+					<div></div>
+					<div>%{analyze.disk}</div>
+					<div></div>
+					<div>%{analyze.network}</div>
+				</div>
+				<div class="detail"></div>
+			</fieldset>
+		</div>	
+		<div class="payment">
+			<div class="paymentImg"></div>
+			<fieldset class="field">
+				<legend>%{analyze.payment}</legend> 
+				<div class="range">
+					%{analyze.range}&nbsp;&nbsp;
+					<input type="range" name="contantRangePayment" min="0.5" step="0.5" max="2" value="1">
+					<output for="contantRangePayment" onforminput="value = contantRangePayment.valueAsNumber;"></output>
+				</div>
+				<div class="indicate">
+					<div></div>
+					<div>%{analyze.disk}</div>
+					<div></div>
+					<div>%{analyze.network}</div>
+				</div>
+				<div class="detail"></div>
+			</fieldset>
+		</div>
+	</div>
+</div>

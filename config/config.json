@@ -1,0 +1,41 @@
+{
+  "filterPath": [
+    "/file/",
+    "/fileList",
+    "/meta/",
+    "/user/"
+  ],
+  "nodeFilterPath": [
+    "/node/",
+    "/heartbeat/"
+  ],
+  "MasterPath": [
+    "/manage/"
+  ],
+  "rabbitMQ": {
+    "host": "10.10.21.18",
+    "port": 5672
+  },
+  "JobQueue": "JobQueue",
+  "expireTime": 86408,
+  "fileRepairPeriod": 3600000,
+  "supplierMonitorPeriod": 3000,
+  "fileStrategy": {
+    "division": 3,
+    "replication": 3,
+    "size": 10485760
+  },
+  "crypto": {
+    "algorithm": "aes-256-cbc",
+    "secret": "d8yte8ng71dnfu30"
+  },
+  "db": {
+    "host": "10.10.21.18",
+    "user": "iServStorage",
+    "password": "iServStorage",
+    "port": "5432",
+    "database": "iServStorage"
+  },
+  "commandPath": "../commands/iServStorage/",
+  "uploadPath": "./upload"
+}

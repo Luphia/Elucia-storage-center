@@ -1,0 +1,104 @@
+div.nodeRiskContent 
+{
+	width: 260px;
+	margin: 0 5px 5px 0;
+	font-size: 0.9em;
+}
+
+div.nodeRiskContent > div.subNodeRiskOutter
+{
+	border-radius: 10px;
+	/*box-shadow:0 0 8px 2px rgba(20%,20%,40%,0.5) inset;*/
+	border: 2px solid rgb(221,204,187);
+}
+
+div.nodeRiskContent path 
+{
+	/*stroke:#fff;*/
+}
+
+div.nodeRiskContent div.dunutArea
+{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #ddd;
+}
+
+
+div.nodeRiskContent div.subNodeInfo
+{
+	padding:5px 0 5px 0;
+	text-align: center;
+	background-color: rgb(221,204,187);
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	/*box-shadow:0 0 1px 1px rgba(20%,20%,40%,0.5) inset;*/
+}
+
+div.nodeRiskContent  div.colorInfo
+{	
+	text-align: center;
+	padding-top:10px;
+}
+
+div.nodeRiskContent  div.colorInfo > div
+{	
+	height: 15px;
+	line-height: 15px;
+	display: inline-block;
+}
+
+div.nodeRiskContent  div.colorInfo > div.color
+{	
+	background-color: #f85032;
+	width: 10px;
+	height: 10px;
+}
+
+div.nodeRiskContent  div.subNodeRisk
+{
+	position: relative;
+}
+
+
+div.nodeRiskContent  div.subNodeRisk > div
+{
+	position: absolute;
+	text-align: center;
+	width: 100px;
+}
+
+div.nodeRiskContent  div.subNodeRisk > div.fileNum
+{
+	left:78px;
+	top:65px;
+}
+
+div.nodeRiskContent  div.subNodeRisk > div.fileNum > div:nth-child(2)
+{
+	color: blue;
+}
+
+div.nodeRiskContent  div.subNodeRisk > div.totalSpace
+{
+	left:78px;
+	top:105px;
+}
+
+div.nodeRiskContent  div.subNodeRisk > div.totalSpace > div:nth-child(2)
+{
+	color: blue;
+}
+
+div.nodeRiskContent  div.subNodeRisk > div.useSpace
+{
+	left:80px;
+	top:145px;
+}
+
+div.nodeRiskContent  div.subNodeRisk > div.useSpace > div:nth-child(2)
+{
+	color: blue;
+}
+
+

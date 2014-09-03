@@ -1,0 +1,60 @@
+div.desktop {
+	overflow: auto;
+	text-align: center;
+	padding: 5%;
+	background: rgba(0,0,0, .3);
+	margin-top: 10%;
+	width: 90%;
+	position: absolute;
+}
+
+div.desktop > div.title {
+	font-size: 3em;
+	color: rgba(255, 255, 255, .2);
+	line-height: 2em;
+}
+
+div.desktop > div.app {
+	float: left;
+	overflow: auto;
+}
+
+div.desktop div.system {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}
+
+div.desktop div.system > div {
+	cursor: pointer;
+	opacity: .7;
+	
+	background: rgba(0,0,0,.5);
+	border-radius: 5px;
+	width: 75px;
+	height: 75px;
+}
+
+div.desktop div.system > div:hover {
+	/* background: rgba(255, 255, 255, .3); */
+}
+
+div.desktop div.system > div.select {
+	background: rgba(255, 255, 255, .5);
+}
+
+div.desktop div.system > div div.name {
+	text-align: center;
+	padding: 2px;
+	font-size: .9em;
+	color: #fff;
+}
+
+div.desktop div.system > div div.icon {
+	margin: auto;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background: rgba(150, 140, 130, .5);
+}

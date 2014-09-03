@@ -1,0 +1,19 @@
+div.browser > div.operate > div.create {
+    margin-left: 10px;
+}
+
+div.browser > div.operate > div.create > div#icon {
+    background: url(./images/add.png) no-repeat;
+  	background-position: center;
+  	background-size: 25px;
+  	-webkit-background-size:25px;
+  	cursor: pointer; 
+  	display: block;
+    height: 30px;
+  	width: 30px;
+}
+
+div.browser > div.operate > div.create > .hover {
+    border: 1px solid #666;
+    box-shadow: 1px 1px 5px #888888;
+}

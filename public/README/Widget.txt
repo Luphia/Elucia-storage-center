@@ -1,0 +1,10 @@
+[基本規範]
+	ifnInit()
+	ifnLoad()
+	ifnRender()
+	ifnResize()
+	ifnFullScreen()
+	ifnDestroy()
+
+[唯一顯示]
+[多重開啟]

@@ -1,0 +1,35 @@
+div.desktopIcon {
+	float: left;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: rgba(255, 245, 235, .2);
+	border-radius: 5px;
+	margin: 5px;
+	text-align: center;
+
+	cursor: pointer;
+}
+
+div.desktopIcon:hover {
+	background: rgba(255, 255, 255, .3);
+}
+
+div.desktopIcon.select {
+	background: rgba(255, 255, 255, .5);
+}
+
+div.desktopIcon div.title {
+	text-align: center;
+	padding: 2px;
+	font-size: .8em;
+	color: #fff;
+}
+
+div.desktopIcon div.icon {
+	margin: auto;
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: rgba(150, 140, 130, .5);
+}

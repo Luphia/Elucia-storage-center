@@ -1,0 +1,29 @@
+div.supplierMonitor
+{
+	font-size: 0.9em;
+}
+
+div.supplierMonitor div.monitorInfo > div
+{
+	float: left;
+}
+
+div.supplierMonitor div.supplierTotalInfo 
+{
+	width: 18%;
+	padding: 5px 5px 20px 5px;	
+}
+
+div.supplierMonitor div.supplierItem
+{
+	width: 81%;
+	padding: 10px 0 10px 0;
+}
+
+div.supplierMonitor div.mapDiv
+{
+	clear: both;
+	padding: 5px;
+	margin:80px 10px 0 0;
+	border-top: 1px dashed #aaa;	
+}

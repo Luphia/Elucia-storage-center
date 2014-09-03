@@ -1,0 +1,25 @@
+div.browser > div.operate > div.nav {
+  	margin-left: 10px;
+    padding-top: 4px;
+}
+
+div.browser > div.operate > div.nav div {
+  	float: left;
+}
+
+div.browser > div.operate > div.nav > div:nth-child(1) {
+	  background: url(./images/logo.png) no-repeat;
+    background-position: center; 
+    background-size: 25px;
+    -webkit-background-size: 25px;
+  	display: block;
+	  height: 25px;
+  	width: 25px;
+}
+
+div.browser > div.operate > div.nav > div#path {
+    font-size: 18px;
+  	margin-left: 10px;
+  	text-align: left;
+  	width: 350px;
+}

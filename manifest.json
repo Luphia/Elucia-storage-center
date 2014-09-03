@@ -1,0 +1,8 @@
+{
+	"name": "iServStorage",
+	"version": "1.0",
+	"description": "easy come, easy go.",
+	"browser_action": {
+		"default_icon": "public/images/favicon.ico"
+	}
+}

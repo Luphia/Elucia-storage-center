@@ -1,0 +1,13 @@
+{
+  "sex": 1,
+  "xxx": "xxx",
+
+  "display": {
+    "sex": "性別",
+    "xxx": "叉叉叉",
+
+    "option": {
+      "sex": [{"name": "男", "value": "0"}, {"name": "女", "value": "1"}]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+div.line-chart {
+	display: block;
+	margin-left: 5px;
+	background: rgba(255, 255, 255, .5);
+	border-radius: 5px;
+	position: relative;
+	/* margin: auto; */
+}
+
+div.line-chart > canvas {
+
+}
+
+div.line-chart > canvas.bottom-layer {
+
+}
+
+div.line-chart > canvas.axis-layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div.line-chart > canvas.area-layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div.line-chart > canvas.line-layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div.line-chart > canvas.top-layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}

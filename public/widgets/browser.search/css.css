@@ -1,0 +1,22 @@
+div.browser > div.operate > div.search {
+    margin-left: 10px;
+    width: 180px;
+}
+
+div.browser > div.operate > div.search > div#icon {
+    background: url(./images/search.png) no-repeat;
+    background-position: center;
+    background-size: 22px;
+    -webkit-background-size: 22px;
+    float: left;
+    height: 25px;
+    width: 25px;
+}
+
+div.browser > div.operate > div.search input#txt {
+    float: left;
+    font-size: 22px;
+    height: 24px;
+    margin-left: 5px;
+    width: 140px;
+}

@@ -1,0 +1,91 @@
+div.usageAnalyze {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	background: #ccc;
+	overflow: auto;
+	min-width: 900px;
+}
+
+div.usageAnalyze div.summary {
+	width: 220px;
+	float: left;
+}
+div.usageAnalyze div.summary div.block {
+	margin: 5px;
+	border-radius: 5px;
+	background: rgb(230, 220, 210);
+	text-align: center;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+div.usageAnalyze div.summary div.block div.data {
+	position: relative;
+}
+div.usageAnalyze div.summary div.block div.title {
+	font-size: 1.2em;
+	line-height: 2em;
+	font-weight: 300;
+	color: rgb(100, 100, 100);
+	background: rgb(220,210,200);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid #eee;
+}
+div.usageAnalyze div.summary div.block div.data div.value {
+	font-size: 2.5em;
+	line-height: 2em;
+}
+div.usageAnalyze div.summary div.block div.data div.unit {
+	position: absolute;
+	left: 77%;
+	margin-top: 25px;
+}
+
+div.usageAnalyze #main {
+  float: left;
+  width: 680px;
+}
+
+div.usageAnalyze #sidebar {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+}
+
+div.usageAnalyze #sequence {
+  height: 70px;
+}
+
+div.usageAnalyze #legend {
+  padding: 10px 0 0 3px;
+}
+
+div.usageAnalyze #sequence text, #legend text {
+	font-size: .9em;
+	font-weight: 300;
+	fill: #fff;
+}
+
+div.usageAnalyze #chart {
+  position: relative;
+}
+
+div.usageAnalyze #chart path {
+  stroke: #fff;
+}
+
+div.usageAnalyze #explanation {
+	position: absolute;
+	top: 210px;
+	left: 180px;
+	width: 140px;
+	text-align: center;
+	color: #666;
+	z-index: 1;
+	font-size: 1.2em;
+}
+
+div.usageAnalyze span.percentage {
+  font-size: 3em;
+}

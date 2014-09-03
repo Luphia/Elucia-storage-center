@@ -1,0 +1,66 @@
+div.browser > div.list div.folder .indicator {
+    background: url(./images/arrow.png) no-repeat;
+    background-size: 20px;
+    -webkit-background-size: 20px;
+    cursor: pointer;
+}
+
+div.browser > div.list div.folder .hover {
+    background-color: rgba(160, 176, 192, 0.5);
+}
+
+div.browser > div.list div.folder .selected {
+    background: #a0b0c0;
+    color: #fff;
+}
+
+div.browser > div.list div.folder {
+    clear: left;
+    display: none;
+    padding-left: 15px;
+    width: 180px;
+}
+
+div.browser > div.list div.folder > div {
+    float: left;  
+}
+
+div.browser > div.list div.folder > div.icon {
+    background: url(./images/folder.png) no-repeat;
+    background-size: 24px 24px;
+    -webkit-background-size: 24px 24px;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+div.browser > div.list div.folder > div.name {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+div.browser > div.list div.folder > div.get_metadata {
+    display: none;
+}
+
+div.browser > div.list div.folder > div.path {
+    display: none;
+}
+
+div.browser > div.list div.folder > div.rotate_deg {
+    display: none;
+}
+
+div.browser > div.list div.folder > div#indicator {
+    display: block;
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+div.browser > div.list div.folder > div.wait {
+    cursor: wait;
+}
